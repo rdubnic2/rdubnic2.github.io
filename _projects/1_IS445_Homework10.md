@@ -25,17 +25,6 @@ Next, I visualize a look at Bigfoot sightings by state, and then by humidity and
 ## The Data & Methods
 
 Below are links to some shoddy code and some less-shoddy data as buttons:
-
-```
-<div class="left">
-{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
-</div>
-
-<div class="right">
-{% include elements/button.html link="https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html" text="The Analysis" %}
-</div>
-```
-
 <!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
