@@ -13,11 +13,11 @@ custom_js:
 
 # Homework 10
 
-Here are some example vega-lite visualizations, first a look at duration of UFO sightings (in seconds) by US state (trying hovering over points for exact details!) followed by a look at Bigfoot sightings by state, and then by humidity and temperature, for a selected state (click on the bar for the state you want to see!).
+Here are some example vega-lite visualizations, first a look at duration of UFO sightings (in seconds) by US state (trying hovering over points for exact details!).
 
-```
 <vegachart schema-url="{{ site.baseurl }}/assets/json/chart1.json" style="width: 100%"></vegachart>
-```
+
+Next, I visualize a look at Bigfoot sightings by state, and then by humidity and temperature, for a selected state (click on the bar for the state you want to see!).
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/dualChart.json" style="width: 100%"></vegachart>
 
