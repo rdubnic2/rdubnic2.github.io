@@ -11,24 +11,20 @@ custom_js:
 ---
 
 
-# Example including vega-lite
+# Homework 10
 
-Example comes from this [great blog post right here](https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html) that was also used in [our test import script](https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/blob/main/week01/test_imports_week01.ipynb).
-
-We can use a vegachart HTML tag like so:
+Here are some example vega-lite visualizations, first a look at duration of UFO sightings (in seconds) by US state (trying hovering over points for exact details!) followed by a look at Bigfoot sightings by state, and then by humidity and temperature, for a selected state (click on the bar for the state you want to see!).
 
 ```
-<vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/chart1.json" style="width: 100%"></vegachart>
 ```
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
-
-In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hooks/) to do it, but I haven't figured out a way that looks nice yet.
+<vegachart schema-url="{{ site.baseurl }}/assets/json/dualChart.json" style="width: 100%"></vegachart>
 
 
-## Search The Data & Methods
+## The Data & Methods
 
-Below is where we can put some links to both the data and the analysis code as buttons:
+Below are links to some shoddy code and some less-shoddy data as buttons:
 
 ```
 <div class="left">
@@ -43,10 +39,14 @@ Below is where we can put some links to both the data and the analysis code as b
 <!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
-{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/main/data/ufo-scrubbed-geocoded-time-standardized-00.csv" text="The Data" %}
+{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/main/data/ufo-scrubbed-geocoded-time-standardized-00.csv" text="The UFO Data" %}
+</div>
+
+<div class="center">
+{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/main/data/bfro_reports_fall2022.csv" text="The Bigfoot Data" %}
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://raw.githubusercontent.com/rdubnic2/rdubnic2.github.io/main/python_notebooks/dubnicek-homework10.ipynb" text="The Analysis" %}
 </div>
 
