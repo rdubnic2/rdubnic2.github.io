@@ -17,7 +17,7 @@ Here are some example vega-lite visualizations, first a look at duration of UFO 
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/chart1.json" style="width: 100%"></vegachart>
 
-Next, I visualize a look at Bigfoot sightings by state, and then by humidity and temperature, for a selected state. For some reason, when rendered here on my site by Jeykll, you have to click and drag to create a selection of bars (or click and drag within one bar to select one state) to see humidity versus temperature data. In my notebook (linked below) this works as a click and not a drag. But try it out either way!
+Next, I visualize a look at Bigfoot sightings by state, and then by humidity and temperature, for a selected state. To see humidity and temperature info for a given state's sightings, just click on that state's bar in the bar chart to see the data change in the scatter plot.
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/dualChart.json" style="width: 100%"></vegachart>
 
