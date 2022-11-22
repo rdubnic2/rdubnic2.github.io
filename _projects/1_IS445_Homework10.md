@@ -36,6 +36,6 @@ Below are links to some shoddy code and some less-shoddy data as buttons:
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://raw.githubusercontent.com/rdubnic2/rdubnic2.github.io/main/python_notebooks/dubnicek-homework10.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/rdubnic2/rdubnic2.github.io/blob/main/python_notebooks/dubnicek-homework10.ipynb" text="The Analysis" %}
 </div>
 
