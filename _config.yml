@@ -125,3 +125,6 @@ exclude:
   - "python_notebooks/*"
   - ufo-scrubbed-geocoded-time-standardized-00-wheader.csv
   - ufo-scrubbed-geocoded-time-standardized-00-wheader-limitduration.csv
+  - 2018-2019-RD.csv
+  - 2018-2019-RD-2.csv 
+  
