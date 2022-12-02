@@ -135,3 +135,5 @@ exclude:
   - lfc_mc_stats_df.csv
   - lfc-2018-2019-player-stats2.csv
   - mcfc-2018-2019-player-stats2.csv
+  - "finalproject-data/*"
+  
