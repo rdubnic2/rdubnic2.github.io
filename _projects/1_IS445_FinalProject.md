@@ -26,7 +26,7 @@ First up, let's just take a look at each club's goals scored, by match date. Fir
  
 And for Manchester City:
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/city_goals_t_.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/city_goals_t.json" style="width: 100%"></vegachart>
 
 
 Both clubs scored a lot of goals, as you'd expect for two historically good season performances! But we can also see who scored the goals for each club, again first with Liverpool:
@@ -36,7 +36,7 @@ Both clubs scored a lot of goals, as you'd expect for two historically good seas
  
 And for Manchester City:
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/mcfc_pg.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/city_pg.json" style="width: 100%"></vegachart>
 
 
 Manchester City had slightly better scoring balance, with more players over 6 goals than Liverpool, who instead had two elite goalscorers in Mohammed Salah and Sadio Mane, each ending the season with 22 goals (and sharing the top scorer prize in the Premier League). However, Manchester City did also have one elite goalscorer in Sergio Aguero, who scored 21 goals for the season.
