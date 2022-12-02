@@ -33,6 +33,7 @@ Both clubs scored a lot of goals, as you'd expect for two historically good seas
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/lfc_pg.json" style="width: 100%"></vegachart>
 
+
 And for Manchester City:
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/mcfc_pg.json" style="width: 100%"></vegachart>
@@ -41,17 +42,19 @@ Manchester City had slightly better scoring balance, with more players over 6 go
 
 But what if we want to investigate if anything is fishy about Man City's season? Perhaps we could glean some insights by looking at referee assignment for each match day, and see if there is a correlation between which referees are assigned to each club and how it aligns with their performances? After all, a referee can create or hinder goal scoring with fouls, corners, playing advantage or, of course, awarding penalties. Here, we have two interactive bar charts, with the same data as in our initial line charts, but now interactive. If you click on a bar that corresponds to the match, the referee name will be returned. If you don't click any bar, you'll see the referees for the entire season. First, let's look at Liverpool:
 
+<vegachart schema-url="{{ site.baseurl }}/assets/json/lfc_g_r.json" style="width: 100%"></vegachart>
 
 Hmmmmm.... DEFINITELY nothing fishy here, and I am 110% confident that Liverpool earned each and every one of their 97 points.
 
 But let's look at Manchester City:
 
+<vegachart schema-url="{{ site.baseurl }}/assets/json/mcfc_g_r.json" style="width: 100%"></vegachart>
 
 Strange! It looks Paul Tierney and Andre Marriner reffed a lot of City matches, though, in their defense, the biggest wins for City are generally refereed by different officials. Though the data doesn't show it here, I am confident there might be impropriety about the season still, just not in this data ;)
 
-## The Data & Methods
+### The Data & Underlying Code
 
-Below are links to some shoddy code and some less-shoddy data as buttons:
+Below are links to a GitHub folder with the underlying data as well as to the Python notebook that was used to create these visualizations.
 <!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
