@@ -127,4 +127,7 @@ exclude:
   - ufo-scrubbed-geocoded-time-standardized-00-wheader-limitduration.csv
   - 2018-2019-RD.csv
   - 2018-2019-RD-2.csv 
+  - lfc-2018-2019-player-stats.csv
+  - mcfc-2018-2019-player-stats.csv
+  - liv_mc_df.csv
   
