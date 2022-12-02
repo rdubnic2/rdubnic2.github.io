@@ -130,4 +130,7 @@ exclude:
   - lfc-2018-2019-player-stats.csv
   - mcfc-2018-2019-player-stats.csv
   - liv_mc_df.csv
-  
+  - lfc_matches.csv
+  - mcfc_matches.csv
+  - lfc_mc_stats_df.csv
+  - 
